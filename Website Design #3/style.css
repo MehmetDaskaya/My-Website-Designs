@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Mitr&display=swap");
+
+body {
+  background-color: rgb(241, 239, 105);
+  /* overflow-x: hidden; Hide horizontal scrollbar */
+}
+
+nav {
+  line-height: 70px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+nav ul li {
+  padding-left: 10px;
+}
+
+nav ul li a {
+  color: black;
+  font-size: 20px;
+}
+
+nav a {
+  color: white !important;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none !important;
+}
+
+p a {
+  color: aqua;
+}
+
+.container {
+  max-width: 1250px;
+  margin: 0 auto;
+}
+
+.album {
+  background-color: black;
+}
+
+.font {
+  font-family: "Hammersmith One", sans-serif;
+  fill: black;
+  font-size: x-large;
+}
+
+.bodytext {
+  fill: blueviolet;
+}
+
+.align-items-left {
+  position: relative;
+  right: 450px;
+}
+
+.larger {
+  font-size: xx-large;
+}
+
+.div1 {
+  width: 728px;
+  height: 800px;
+  background-color: white;
+}
+
+.div2 {
+  width: 1200px;
+  height: 500px;
+  background-color: white;
+  position: relative;
+  top: 20px;
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.stylish {
+  font-family: "Alex Brush", cursive;
+  color: rgb(241, 239, 105);
+}
+
+.btn-outline-light {
+  border-color: black;
+  color: rgb(69, 55, 146);
+  font-family: "Mitr", sans-serif;
+}
+
+.nav-link {
+  fill: white;
+}
+
+.dropdown-item {
+  color: black !important;
+}
